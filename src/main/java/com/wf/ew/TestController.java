@@ -13,6 +13,6 @@ public class TestController {
     @RequestMapping("/getTest")
     public String test(String str){
 
-        return "测试docker启动SpringBoot项目："+str;
+        return "测试docker启动SpringBoot项目-修改："+str;
     }
 }
