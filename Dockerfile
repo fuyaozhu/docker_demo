@@ -6,7 +6,7 @@ RUN echo "正在构建镜像！！！"
 VOLUME /tmp
 RUN mkdir /home/demo
 # 添加jar包（路径），如果是当前目录下则可以省略路径，然后起别名
-ADD ./target/docker_demo-1.0-SNAPSHOT.jar docker_demo.jar
+ADD ./target/docker_demo-2.0-SNAPSHOT.jar docker_demo.jar
 #容器暴露的端口 即jar程序在容器中运行的端口
 EXPOSE 8333
 # 执行启动jar包命令
